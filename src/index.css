@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card {
+  border: 5px solid yellow;
+  padding: 50px;
+  border-radius: 20px;
+  width: 900px;
+  margin: 200px auto;
+}
+
+.logo {
+  height: 150;
+  width: 150px;
+}
+
+.header {
+  padding-left: auto;
+  color: green;
+  padding-left: 100px;
+
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+
+  font-size: 50px;
+}
+nav {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  color: aqua;
+  padding-left: 100px;
+}
